@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BDBDBD"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/anhnen"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="5dp"
+        app:civ_border_color="#000"
+        app:civ_border_width="2dp"
+        app:civ_border_overlay="true"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_imagesdrsd"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/anhnen"
+        app:civ_border_color="#000"
+        app:civ_border_overlay="true"
+        app:civ_border_width="10dp" />
+
+<!--    <ImageView-->
+<!--       android:layout_width="100dp"-->
+<!--       android:layout_height="100dp"-->
+<!--       android:layout_marginTop="30dp"-->
+<!--       android:layout_marginLeft="30dp"-->
+<!--       android:src="@drawable/anhnen"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đặng Thành Danh"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="danhdtps13304@fpt.edu.vn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="1dp"
+        android:textSize="14dp"
+        android:textColor="#000"/>
+</LinearLayout>

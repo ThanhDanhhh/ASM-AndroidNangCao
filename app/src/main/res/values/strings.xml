@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidNangCao_ASM_Ps13304_DangThanhDanh</string>
+    <string name="OPEN">OPEN</string>
+    <string name="CLOSE">CLOSE</string>
+
+    <string name="rss_text">https://vnexpress.net/rss/tin-moi-nhat.rss</string>
+    <string name="rss_trangthai" />
+    <string name="rss_taitrang">Download</string>
+    <string name="title_activity_web">webActivity</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">669220667363584</string>
+    <string name="fb_login_protocol_scheme">fb669220667363584</string>
+    <string name="ap_api_key">AIzaSyBJA0iaIbOt3a1IJA4nOvKTVmstfPZ-LO8</string>
+
+<!--    <string-array name="planets_array">-->
+<!--        <item>Chính trị – pháp luật</item>-->
+<!--        <item>Khoa học công nghệ – Kinh tế</item>-->
+<!--        <item>Văn học nghệ thuật</item>-->
+
+<!--    </string-array>-->
+</resources>

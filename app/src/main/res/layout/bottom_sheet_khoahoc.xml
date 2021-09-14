@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppBottomSheetDialogTheme"
+    >
+    <View
+        android:layout_width="70dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/darker_gray"
+        />
+    <TextView
+        android:id="@+id/tvNewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Khoa Hoc"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="20dp" />
+
+
+        <EditText
+            android:id="@+id/edt_ma_khoahoc"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#000"
+            android:hint="Mã khoa hoc"
+            android:textColorHint="#000"
+            android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_ten_khoahoc"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000"
+        android:hint="Tên loại"
+        android:textColorHint="#000"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_thempl"
+        android:layout_marginTop="20dp"
+        android:text="Insert"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

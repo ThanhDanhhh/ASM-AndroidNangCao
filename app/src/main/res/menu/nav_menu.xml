@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/khoahoc"
+            android:icon="@drawable/icon_khoahoc"
+            android:title="COURSE"
+            />
+        <item
+            android:id="@+id/student"
+            android:icon="@drawable/icon_student"
+            android:title="STUDENT"/>
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/icon_ggmaps"
+            android:title="MAPS"/>
+
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/icon_read"
+            android:title="NEWS"
+            />
+        <item
+            android:id="@+id/social"
+            android:icon="@drawable/icon_social"
+            android:title="SOCIAL"/>
+
+        <item android:title="Infor">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/caidat"
+                        android:icon="@drawable/icon_sitting"
+                        android:title="SETTING "/>
+                    <item
+                        android:id="@+id/thoat"
+                        android:icon="@drawable/icon_exit"
+                        android:title="EXIT "/>
+
+
+                </group>
+            </menu>
+
+        </item>
+    </group>
+        </menu>
+
